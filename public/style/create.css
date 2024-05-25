@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+/* this is only due to codepen display don't use this outside of codepen */
+.container {
+  padding-top: 20px;
+}
+
+.form-group{
+  margin-top: 50px;
+}
+
+.form-control{
+  border: 2px solid black;
+}
+
+input[type=text] {
+  border: 3px solid #111010;
+}
+
+.form-group>textarea {
+  border: 3px solid #111010;
+}

@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs")%>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <title>California</title>
+    <link rel="stylesheet" href="style/post.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <style>
+
+        
+    </style>
+</head>
+<body >
+
+<main class="container">
+    <div class="custom-container">
+        <div>
+            <h1><%=text%></h1>
+        </div>
+        <div>
+            <h6>Created: <%= time_now%></h6>
+        </div>
+        <div>
+            <p><%= content%></p>            
+        </div>
+    </div>
+</main>
+
+<script src="../js/app.js"></script>
+<%- include("partials/footer.ejs")%>
+</body>

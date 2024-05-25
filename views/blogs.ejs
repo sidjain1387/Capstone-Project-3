@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/blogs.css">
+    <style>
+
+        .hi{
+            background-image: url("images/yyy.jpg");
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <%- include("partials/header.ejs")%>
+    <div class="hello hi">
+        <div class="container1">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+                </div>
+                <div class="card-body">
+        <span class="tag tag-teal">Technology</span>
+        <h4>
+            Why is the Tesla Cybertruck designed the way it
+          is?
+        </h4>
+        <p>
+          An exploration into the truck's polarising design
+        </p>
+        <div class="btn">
+            <a href="/post"><button>Read More</button></a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <img src="https://www.newsbtc.com/wp-content/uploads/2020/06/mesut-kaya-LcCdl__-kO0-unsplash-scaled.jpg" alt="ballons" />
+        </div>
+        <div class="card-body">
+          <span class="tag tag-purple">Popular</span>
+          <h4>
+              How to Keep Going When You Don’t Know What’s Next
+            </h4>
+            <p>
+                The future can be scary, but there are ways to
+                deal with that fear.
+            </p>
+            <div class="btn">
+                <a href=""><button>Read More</button></a>
+            </div>
+    </div>
+</div>
+
+<% if(locals.text){%>
+    <div class="card">
+    <div class="card-header">
+        <img src="https://images6.alphacoders.com/312/thumb-1920-312773.jpg" alt="city" />
+    </div>
+    <div class="card-body">
+        <span class="tag tag-pink">Design</span>
+        <h4>
+            <%= text %>
+        </h4>
+        <p>
+            <%=short_post%>
+        </p>
+        <div class="btn">
+            <a href="/post"><button style="margin-bottom: 0;">Read More</button></a>
+        </div>
+    </div>
+</div>
+<% } %>
+</div>
+
+</div>
+<%- include("partials/footer.ejs")%>
+</body>
+
+</html>
