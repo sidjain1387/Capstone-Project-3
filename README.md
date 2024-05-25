@@ -8,4 +8,4 @@ Welcome to OneTimeBlog, a minimalist platform for creating, viewing, delete and 
 
 ### git clone https://github.com/sidjain1387/Capstone-Project-3.git
 
-``` cd "Capstone-Project-3"
+``` cd "Capstone-Project-3"```
