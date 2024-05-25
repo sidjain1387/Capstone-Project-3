@@ -10,9 +10,9 @@ Welcome to OneTimeBlog, a minimalist platform for creating, viewing, delete and 
 
 ## To Run the project
 
-``` cd "Capstone-Project-3"```
-``` npm i ```
-```npm audit fix```
-```nodemon index.js```
+``` cd "Capstone-Project-3"
+npm i
+npm audit fix
+nodemon index.js```
 
 ## And then you Will land on this page
