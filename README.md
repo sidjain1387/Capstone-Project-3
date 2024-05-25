@@ -6,6 +6,13 @@ Welcome to OneTimeBlog, a minimalist platform for creating, viewing, delete and 
 
 ## To install Run the command
 
-### git clone https://github.com/sidjain1387/Capstone-Project-3.git
+``` git clone https://github.com/sidjain1387/Capstone-Project-3.git ```
+
+## To Run the project
 
 ``` cd "Capstone-Project-3"```
+``` npm i ```
+```npm audit fix```
+```nodemon index.js```
+
+## And then you Will land on this page
