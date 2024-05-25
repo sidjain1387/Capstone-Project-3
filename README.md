@@ -24,7 +24,7 @@ Type Localhost:3000
 ```
 ## To Stop the code
 
-```Press Ctrl + C```
+```Press Ctrl + C on your Terminal```
 
 ## And then you Will land on this page
 ![Alt text](public/images/home.png)
