@@ -16,5 +16,7 @@ npm i
 npm audit fix
 nodemon index.js '
 ```
+## To Stop the code
+#### Press Ctrl + C
 
 ## And then you Will land on this page
